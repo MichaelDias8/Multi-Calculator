@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="group29"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\Qt\;CMake Files\..\..\..\Qt\5.12.11\;CMake Files\..\..\..\Qt\5.12.11\clang_64\;CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\;CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\;CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5PrintSupport\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/mihir/Desktop/Code/group29/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mihir/Desktop/Code/group29/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mihir/Desktop/Code/group29/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mihir/Desktop/Code/group29/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mihir/Desktop/Code/group29/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/mihir/Desktop/Code/group29/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mihir/Desktop/Code/group29/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mihir/Desktop/Code/group29/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mihir/Desktop/Code/group29/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mihir/Desktop/Code/group29/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/mihir/Desktop/Code/group29/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mihir/Desktop/Code/group29/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mihir/Desktop/Code/group29/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mihir/Desktop/Code/group29/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mihir/Desktop/Code/group29/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="group29">
+				<Option output="/Users/mihir/Desktop/Code/group29/cmake-build-debug/group29" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mihir/Desktop/Code/group29/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_PRINTSUPPORT_LIB"/>
+					<Add directory="/Users/mihir/Desktop/Code/group29/cmake-build-debug/group29_autogen/include"/>
+					<Add directory="/Users/mihir/Qt/5.12.11/clang_64/lib/QtWidgets.framework"/>
+					<Add directory="/Users/mihir/Qt/5.12.11/clang_64/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/Users/mihir/Qt/5.12.11/clang_64/lib/QtGui.framework"/>
+					<Add directory="/Users/mihir/Qt/5.12.11/clang_64/lib/QtGui.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/Users/mihir/Qt/5.12.11/clang_64/lib/QtCore.framework"/>
+					<Add directory="/Users/mihir/Qt/5.12.11/clang_64/lib/QtCore.framework/Headers"/>
+					<Add directory="/Users/mihir/Qt/5.12.11/clang_64/./mkspecs/macx-clang"/>
+					<Add directory="/Users/mihir/Qt/5.12.11/clang_64/lib/QtPrintSupport.framework"/>
+					<Add directory="/Users/mihir/Qt/5.12.11/clang_64/lib/QtPrintSupport.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mihir/Desktop/Code/group29/cmake-build-debug/Makefile&quot;  VERBOSE=1 group29"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mihir/Desktop/Code/group29/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mihir/Desktop/Code/group29/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mihir/Desktop/Code/group29/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="group29/fast">
+				<Option output="/Users/mihir/Desktop/Code/group29/cmake-build-debug/group29" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mihir/Desktop/Code/group29/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_PRINTSUPPORT_LIB"/>
+					<Add directory="/Users/mihir/Desktop/Code/group29/cmake-build-debug/group29_autogen/include"/>
+					<Add directory="/Users/mihir/Qt/5.12.11/clang_64/lib/QtWidgets.framework"/>
+					<Add directory="/Users/mihir/Qt/5.12.11/clang_64/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/Users/mihir/Qt/5.12.11/clang_64/lib/QtGui.framework"/>
+					<Add directory="/Users/mihir/Qt/5.12.11/clang_64/lib/QtGui.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/Users/mihir/Qt/5.12.11/clang_64/lib/QtCore.framework"/>
+					<Add directory="/Users/mihir/Qt/5.12.11/clang_64/lib/QtCore.framework/Headers"/>
+					<Add directory="/Users/mihir/Qt/5.12.11/clang_64/./mkspecs/macx-clang"/>
+					<Add directory="/Users/mihir/Qt/5.12.11/clang_64/lib/QtPrintSupport.framework"/>
+					<Add directory="/Users/mihir/Qt/5.12.11/clang_64/lib/QtPrintSupport.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mihir/Desktop/Code/group29/cmake-build-debug/Makefile&quot;  VERBOSE=1 group29/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mihir/Desktop/Code/group29/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mihir/Desktop/Code/group29/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mihir/Desktop/Code/group29/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="group29_autogen">
+				<Option working_dir="/Users/mihir/Desktop/Code/group29/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mihir/Desktop/Code/group29/cmake-build-debug/Makefile&quot;  VERBOSE=1 group29_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mihir/Desktop/Code/group29/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mihir/Desktop/Code/group29/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mihir/Desktop/Code/group29/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/cmake-build-debug/group29_autogen/mocs_compilation.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/controller/ButtonResponder.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/controller/compute/Compute.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/controller/compute/ComputeEquation.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/controller/compute/ComputeFunction.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/controller/compute/ComputeMatrix.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/controller/compute/ComputeSet.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/controller/compute/ComputeSysOfLinearEqn.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/model/analyser/Interpreter.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/model/analyser/Lexer.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/model/analyser/Node.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/model/analyser/Parser.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/model/analyser/Token.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/model/functions/Constant.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/model/functions/Factorial.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/model/functions/Fraction.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/model/functions/Function.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/model/functions/Log.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/model/functions/Polynomial.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/model/functions/Trig.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/model/matrices/Matrix.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/model/sets/Sets.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/model/utilities/Utilities.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/view/History.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/view/MainWindow.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/view/button.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/view/calculatorGUI.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/view/graphGUI.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/view/matrixGUI.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/view/qcustomplot.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/view/setsGUI.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/include/view/stepsGUI.h">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/controller/ButtonResponder.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/controller/compute/ComputeEquation.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/controller/compute/ComputeFunction.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/controller/compute/ComputeMatrix.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/controller/compute/ComputeSet.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/controller/compute/ComputeSysOfLinearEqn.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/model/analyser/Interpreter.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/model/analyser/Lexer.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/model/analyser/Node.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/model/analyser/Parser.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/model/analyser/Token.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/model/functions/Constant.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/model/functions/Factorial.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/model/functions/Fraction.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/model/functions/Function.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/model/functions/Log.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/model/functions/Polynomial.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/model/functions/Trig.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/model/matrices/Matrix.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/model/sets/Sets.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/model/utilities/Utilities.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/view/History.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/view/MainWindow.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/view/button.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/view/calculatorGUI.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/view/graphGUI.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/view/matrixGUI.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/view/qcustomplot.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/view/setsGUI.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/main/src/view/stepsGUI.cpp">
+			<Option target="group29"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5PrintSupport/Qt5PrintSupport_QCocoaPrinterSupportPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5PrintSupport/Qt5PrintsupportConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="/Users/mihir/Desktop/Code/group29/../../../Qt/5.12.11/clang_64/lib/cmake/Qt5PrintSupport/Qt5PrintsupportConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.12.11\clang_64\lib\cmake\Qt5PrintSupport\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
